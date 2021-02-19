@@ -35,8 +35,8 @@ INC_PREFIX=$USR_PREFIX/include/$A
  --enable-vout-drm\
  --enable-vout-egl\
  $SHARED_LIBS\
- --extra-cflags="-ggdb"
-
+ --extra-cflags="-ggdb"\
+ --extra-libs="-lX11"
 # --enable-decoder=hevc_rpi\
 # --enable-extra-warnings\
 # --arch=armv71\
