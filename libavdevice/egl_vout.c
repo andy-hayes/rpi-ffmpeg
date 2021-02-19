@@ -48,7 +48,7 @@
 #include <X11/Xutil.h>
 #include <X11/Xlib-xcb.h>
 #include <xcb/xcb.h>
-#include <xcb/dri3.h>
+//#include <xcb/dri3.h>
 
 #include "libavutil/rpi_sand_fns.h"
 
